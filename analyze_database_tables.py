@@ -86,8 +86,10 @@ def main():
     主函数
     """
     # 设置数据库根目录
-    root_dir = "dev_20240627"
-    output_file = "database_tables_stats.csv"
+    # root_dir = "dev_20240627"
+    # output_file = "dev_database_tables_stats.csv"
+    root_dir = "train"
+    output_file = "train_database_tables_stats.csv"
     
     # 获取所有数据库文件
     db_files = get_database_files(root_dir)
